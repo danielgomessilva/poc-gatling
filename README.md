@@ -34,5 +34,5 @@ sbt "test:assembly"
 
 Run:
 ```
-java -jar target/scala-2.12/gatling-test-0.1.0-SNAPSHOT.jar -s com.sample.UserSimulation
+java -jar target/scala-2.12/app.jar -s com.sample.UserSimulation
 ```

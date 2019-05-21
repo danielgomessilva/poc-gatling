@@ -22,7 +22,7 @@ lazy val root = (project in file("."))
           case other => (assemblyMergeStrategy in assembly).value(other)
         },
         mainClass in assembly := Some("io.gatling.app.Gatling"),
-        assemblyJarName in assembly := name.value + "-test-" + version.value + ".jar"
+        assemblyJarName in assembly := "app.jar"
       )
     )
   )
