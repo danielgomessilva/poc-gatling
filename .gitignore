@@ -1,0 +1,14 @@
+*.log
+.classpath
+.project
+.gradle
+.idea
+.settings
+.DS_Store
+.cache
+gen_java
+build
+bin
+results
+target/
+project/target/
